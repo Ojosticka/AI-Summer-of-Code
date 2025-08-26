@@ -41,18 +41,18 @@ LLM_Raw_and_Stupid/
    cd aisoc-raw-and-stupid
 
 2. **Create and activate a virtual environment**
-
-python -m venv venv
-source venv/bin/activate   # Mac/Linux
-venv\Scripts\activate      # Windows
+   ```bash
+    python -m venv venv
+    source venv/bin/activate   # Mac/Linux
+    venv\Scripts\activate      # Windows
 
 3. **Install dependencies**
-
-pip install -r requirements.txt
+   ```bash
+    pip install -r requirements.txt
 
 4. **Run the app**
-
-streamlit run AisocRawAndStupid.py
+   ```bash
+    streamlit run AisocRawAndStupid.py
 
 5. **Enter your API key**
 
@@ -61,15 +61,17 @@ streamlit run AisocRawAndStupid.py
 
 6. **Upload a PDF and start asking questions! 🎉**
 
-🔒 Environment Variables
+
+🔒 **Environment Variables**
 If you prefer to keep your API key safe, create a .env file (ignored by Git):
-
-GROQ_API_KEY=your_api_key_here
-
+    ```bash
+    GROQ_API_KEY=your_api_key_here
+    ```
 Then load it in Python with:
-
-import os
-api_key = os.getenv("GROQ_API_KEY")
+   ```bash
+    import os
+    api_key = os.getenv("GROQ_API_KEY")
+   ```
 
 📚 Example Questions
 
