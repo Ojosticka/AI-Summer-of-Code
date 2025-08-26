@@ -1,0 +1,40 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+.eggs/
+*.log
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+
+# Jupyter & IPython
+.ipynb_checkpoints
+*.ipynb
+
+# ---- Streamlit ----
+.streamlit/
+# (contains local settings like browser state, don’t commit)
+
+# ---- OS-specific ----
+.DS_Store
+Thumbs.db
+
+# ---- IDEs/Editors ----
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ---- Environment/Secrets ----
+.env
+*.key
+*.pem
